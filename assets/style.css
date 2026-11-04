@@ -18,3 +18,11 @@
 @media (max-width: 1020px) { .portrait-frame { width: min(100%, 185px); } }
 @media (max-width: 760px) { .hero-portrait { min-height: 340px; } .portrait-frame { width: min(100%, 175px); } .sidebar-portrait { width: min(100%, 190px); } }
 @media (max-width: 460px) { .hero-portrait { min-height: 320px; } .portrait-frame { width: min(100%, 160px); } .sidebar-portrait { width: min(100%, 175px); } }
+
+
+/* Swapped photo placements: full-length on home, headshot on CV */
+.portrait-frame{width:min(100%,205px);padding:7px;margin:13px auto 12px}
+.sidebar-portrait{width:min(100%,170px);padding:8px}
+@media(max-width:1020px){.portrait-frame{width:min(100%,200px)}}
+@media(max-width:760px){.portrait-frame{width:min(100%,185px)}.sidebar-portrait{width:min(100%,160px)}}
+@media(max-width:460px){.portrait-frame{width:min(100%,170px)}.sidebar-portrait{width:min(100%,150px)}}
